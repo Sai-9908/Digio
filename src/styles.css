@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.loginpage {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  height: 50px;
+  background-color: #7e57c2;
+  background-image: linear-gradient(45deg, #645580, #ede8e800);
+  color: white;
+}
+#nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  height: 50px;
+  background-color: #7e57c2;
+  background-image: linear-gradient(45deg, #d9d6e0, #f7f7f700);
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+#Nav-Bar {
+  width: 100%;
+}
+
+.Nav-Bar {
+  width: 100%;
+}
+.logo-image {
+  width: 8%;
+}
+.gmail-container {
+  position: relative;
+  top: 70px;
+  line-height: 50px;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.google-box {
+  padding: 1px 2px 3px 3px;
+  background-color: red;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 10px;
+  color: white;
+}
+.or {
+  position: relative;
+  width: 100%;
+}
+.or span {
+  background-color: white;
+  position: relative;
+  z-index: 5;
+}
+.line {
+  width: 90%;
+  position: absolute;
+  height: 2px;
+  background-color: #8080805e;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.emailbox {
+  padding: 5px;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+}
+#text1 {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+#text2 {
+  font-size: 15px;
+}
+.continue {
+  padding: 10px;
+  background-color: #8686bb;
+  color: white;
+  outline: none;
+  border: 0;
+  font-size: 20px;
+  text-align: center;
+}
+.aadharpage {
+  position: relative;
+  width: 100%;
+}
+.aadharalert {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: #000000a3;
+}
+.alert {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 30%;
+  background-color: white;
+  align-items: flex-start;
+}
+.aadhar-img {
+  width: 6%;
+  margin: 15px;
+  float: left;
+}
+.verify-box {
+  width: 60%;
+  padding: 10px;
+  margin: 15px;
+  outline: none;
+  font-size: 17px;
+}
+.verify-button {
+  padding: 10px;
+  margin: 15px;
+  font-size: 18px;
+  background-color: grey;
+  outline: none;
+  border: none;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+.verified-boxes {
+  display: flex;
+}
+.check-box {
+  outline: none;
+}
+.verifyOtp {
+  display: flex;
+  width: 80%;
+}
+.text-page {
+  margin: 2%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 51%;
+  left: 23%;
+  position: absolute;
+}
+.otp-box {
+  background-color: #3162b0;
+  padding: 10px;
+  width: 50%;
+  position: relative;
+  margin: 50px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+.agreement-image {
+  border: 1px solid;
+}
+#Atext {
+  font-size: 15px;
+}
+.verfied-successfully {
+  font-size: 30px;
+  margin: 10px;
+}
+#check-icon {
+  font-size: 20px;
+}
